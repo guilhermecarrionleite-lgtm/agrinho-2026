@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defensores do Agro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="start-screen" class="screen">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>Pilote a Aeronave de Manejo Sustentável! Sua missão é lançar biofertilizantes e sementes para neutralizar as ameaças ao meio ambiente.</p>
+            <p><strong>Controles:</strong> Use as setas do teclado (⬅️ ➡️) para mover e a barra de Espaço (⎵) para lançar as cápsulas ecológicas.</p>
+            <button id="start-btn">Iniciar Missão</button>
+        </div>
+
+        <div id="hud">
+            <div>Pontuação: <span id="score">0</span></div>
+            <div>Equilíbrio Ambiental: <span id="health">100</span>%</div>
+        </div>
+
+        <div id="player-ship">🚀</div>
+
+        <div id="game-over-screen" class="screen hidden">
+            <h2>Missão Concluída!</h2>
+            <p>Obrigante por garantir a produção em harmonia com a natureza!</p>
+            <p>Sua Pontuação de Sustentabilidade: <span id="final-score">0</span></p>
+            <button id="restart-btn">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
